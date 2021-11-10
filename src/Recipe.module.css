@@ -1,0 +1,102 @@
+.card{
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px black;
+    background: #4BEA9E;
+    color:black;
+    margin-bottom: 20px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    /* overflow: hidden; */
+}
+.image{
+    position: relative;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+}
+.delete{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    height: 50px;
+    width: 50px;
+    background-color: tomato;
+    border-radius: 50%;
+    cursor: pointer;
+} .delete p{
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+    top: -17px;
+    left: 35%;
+} .delete:hover{
+    background-color: red;
+}
+.title{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+}
+.blok1{
+    display: inline-block;
+}
+.blok2{
+    display: inline-block;
+    vertical-align: top;
+} .blok2 h3:hover{
+    color: greenyellow;
+}
+.ingredients{
+    display: inline-block;
+    margin:0;
+    width: 200px;
+}   .ingredients li{
+        text-align: start;
+        left: 0%;
+    }
+    .ingredients h3{
+        margin-top: 0;
+        margin-bottom: 5px;
+        text-align: start;
+        left: 0%;
+    }
+.instruction{
+    display: block;
+    margin: 20px;
+    height: 25px;
+    border-radius: 20px;
+    background: black;
+    cursor: pointer;
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+} .instruction:hover{
+    color: greenyellow;
+}
+.section2 h3{
+    margin-top: 0;
+}
+.table {
+    display: none;
+    width: 380px;
+    margin: 5px;
+}
+ .table th{
+    margin: 0 40px;
+} .tabletdcol1{
+    text-align: start;
+}
+.btn{
+    margin: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+} .btn:hover{color: green;}
