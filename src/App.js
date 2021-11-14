@@ -10,7 +10,7 @@ const App = () =>{
   const [search,setSearch] = useState('')
   const [query, setQuery] = useState('egg')
 
-  useEffect(async ()=>{
+  useEffect(()=>{
     getRecipe()
   },[query])
 
@@ -33,7 +33,7 @@ const App = () =>{
   return(
     <div className='App'>
       <div className='Title'>
-      <h1>Gizi&nbsp;</h1><img  src='./1094675.png'/><h1>&nbsp;Food</h1>
+      <h1>Gizi&nbsp;</h1><img  src='./1094675.png' alt=""/><h1>&nbsp;Food</h1>
       </div>
       <p className='Title-Descrip'>Desired Food Recipe</p>
       <form className='search-form' onSubmit={getSearch}>
